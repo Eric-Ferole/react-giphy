@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
-    // constructor(props) {
-    //     super(props);
-    // }
 
     changeHandler = (event) => {
-        console.log(event.target.value);
+        // console.log(event.target.value);
+        // console.log(typeof(event.target.value))
         this.props.search(event.target.value);
     }
 
