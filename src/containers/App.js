@@ -42,14 +42,13 @@ class App extends Component {
     });
   }
 
-  
   render() {
     return (
       <div className="App">
         <div className="left-scene">
           <SearchBar search={this.search} />
           <div className="selected-gif">
-            <Gif selected={this.selectGif} id={this.state.selectedGif} /> 
+            <Gif id={this.state.selectedGif} /> 
           </div>
         </div>
         <div className="right-scene">
