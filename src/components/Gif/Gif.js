@@ -7,7 +7,7 @@ class Gif extends Component {
         const id = url.slice(26, -10) // Retrieve the Gif's id
         // console.log(typeof(id))
         // console.log(props)
-        console.log(this.props.selected)
+        // console.log(this.props.selected)
         // this.props.selected(id); // Think it passes id to <Gif /> properties
     }
 
